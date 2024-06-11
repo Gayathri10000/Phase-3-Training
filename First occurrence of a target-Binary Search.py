@@ -16,6 +16,6 @@ def findFirstOccurrence(nums, target):
             left = mid + 1 
  
     return result
-nums = [1,4,4,4,5,2,2,7,8]
+nums = [1,2,2,4,4,4,5,7,8]
 print(findFirstOccurrence(nums, 4))
 print(findFirstOccurrence(nums, 2))
