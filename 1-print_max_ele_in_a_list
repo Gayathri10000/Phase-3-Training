@@ -1,0 +1,9 @@
+def sloveit(index,nums,n):
+    if index >= n:
+        return float('-inf')
+    nextele = sloveit(index+1,nums,n)
+    return max(nums[index] , nextele)
+    
+nums = [1,2,34,5,667]
+res = sloveit(0,nums,len(nums))
+print(res)
